@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  margin: 0;
+}
+
+.header {
+  height: 265px;
+  background: #F8F8F8;
+  padding-top: 105px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.hwrapper {
+  width: 1005px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  margin-top: 0;
+  margin-bottom: 3px;
+  line-height: 42px;
+  font-size: 33px;
+  font-family: "Lora", sans-serif;
+  color: #143774;
+}
+
+.logo p {
+  font-size: 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2.4px;
+  color: #1792D2;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.main-menu {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+
+.main-menu a {
+  color: #717171;
+  text-decoration: none;
+}
+
+.main-menu a:hover,
+.main-menu a.active {
+  text-decoration: underline;
+}
+
+.main-menu ul li {
+  margin-left: 30px;
+  list-style: none;
+  display: inline;
+}
+
+.wrap-contain {
+  display: flex;
+  flex-direction: row;
+  margin-top: 319px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 51px;
+}
+
+.comment {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  color: #707070;
+  margin: 11px 0 0 0;
+}
+
+.com-bord {
+  border-left: 2px solid #ccc;
+  padding-left: 5px; 
+}
+
+.hwrapper h2 {
+  font-family: "Lora", sans-serif;
+  font-size: 24px;
+  letter-spacing: 4.8px;
+  font-weight: normal;
+  color: #143774;
+  letter-spacing: 0;
+}
+
+.more {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.more a {
+  color: #1792D2;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 59px;
+}
+
+.cont-left {
+  flex-direction: column;
+  margin-right: 27px;
+}
+
+.cont-right {
+  flex-direction: column;
+}
+
+.cont-right h2 {
+  margin-top: 0;
+}
+
+.cont-right-text {
+  color: #707070;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  word-spacing: 4.8px;
+  line-height: 28px;
+}
+
+.img-cont {
+  width: 198px;
+  height: 242px;
+}
+
+.aside-bottom, .aside-top {
+  border: 20px solid #EBEBEB;
+  width: 240px;
+}
+
+.aside-bottom {
+  margin-bottom: 45px;
+  padding: 25px;
+}
+
+.aside-bottom h2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 3.6px;
+  color: #143774;
+  text-transform: uppercase;
+}
+
+.aside-bottom a {
+  text-decoration: none;
+}
+
+.aside-bottom a:hover {
+  text-decoration: underline;
+}
+
+.aside-bottom p {
+  font-size: 14px;
+  font-weight: lighter;
+  font-family: "Ubuntu", sans-serif;
+  color: #143774;
+  line-height: 24px;
+}
+
+.aside-img-about {
+  width: 150px;
+  height: 133px;
+}
+
+.aside-img {
+  width: 150px;
+  height: 87px;
+}
+
+.aside-top {
+  padding: 25px;
+}
+
+.aside-top h2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 3.6px;
+  color: #143774;
+  text-transform: uppercase;
+}
+
+.aside-top a {
+  text-decoration: none;
+}
+
+.aside-top a:hover {
+  text-decoration: underline;
+}
+
+.aside-top p {
+  font-size: 18px;
+  font-family: "Lora", sans-serif;
+  color: #143774;
+  line-height: 28px;
+}
+
+.aside-top img:nth-of-type(2), .aside-top img:nth-of-type(3) {
+  margin-top: 15px;
+}
+
+.aside-top p:nth-of-type(2), .aside-top p:nth-of-type(3) {
+  height: 58px;
+  overflow: hidden;
+}
+
+.aside-top p:hover {
+  height: auto;
+  cursor: pointer;
+}
+
+/*FOOTER*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 172px;
+  background-color: #143774;
+  color: #FFFFFF;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.copy {
+  font-weight: lighter;
+  padding-top: 15px;
+}
