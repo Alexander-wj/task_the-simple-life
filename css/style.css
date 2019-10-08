@@ -18,7 +18,7 @@ body {
 }
 
 .hwrapper {
-  width: 1005px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -201,6 +201,8 @@ body {
   margin-right: 51px;
 }
 
+/*Right cont*/
+
 .aside-bottom, .aside-top {
   border: 20px solid #EBEBEB;
   width: 240px;
@@ -296,6 +298,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 172px;
+  width: 1005px;
   background-color: #143774;
   color: #FFFFFF;
   font-family: "Ubuntu", sans-serif;
@@ -310,4 +313,141 @@ body {
 .copy {
   font-weight: lighter;
   padding-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .wrap-contain {
+    margin: 0;
+  }
+
+  .wrapper {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .header {
+    height: 330px;
+    background: #F8F8F8;
+    padding: 0;
+    width: 600px;
+    position: static;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    padding-top: 47px;
+  }
+
+  .logo h1 {
+    line-height: 42px;
+    font-size: 33px;
+    font-family: "Lora", sans-serif;
+    color: #143774;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  .main-menu {
+    width: 600px;
+  }
+
+  .main-menu a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    /* width: 600px; */
+    position: relative;
+    top: 220px;
+    z-index: -1;
+    margin-bottom: 180px;
+  }
+
+  .image img {
+    width: 600px;
+    position: absolute;
+    clip: rect(auto, 600px, auto, auto);
+  }
+
+  .left-container {
+    margin: 0;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 59px;
+  }
+
+  .cont-right-text {
+    width: 600px;
+  }
+
+  .img-cont {
+    width: 600px;
+    height: 242px;
+  }
+
+  .wrap-contain {
+    display: block;
+    flex-direction: column;
+  }
+
+  .aside-bottom, .aside-top {
+    width: 600px;
+  }
+
+  .aside-bottom p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .aside-img-about {
+    width: 428px;
+    height: 133px;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aside-img {
+    width: 420px;
+    height: 87px;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aside-top p:nth-of-type(2), .aside-top p:nth-of-type(3) {
+    height: 25px;
+    overflow: hidden;
+  }
+  
+  .aside-top p:hover {
+    height: auto;
+    cursor: pointer;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 172px;
+    width: 600px;
+  }
+
 }
